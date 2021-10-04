@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+    /* color: rgb(35, 207, 170); */
+}
+
+html{
+    background-image: url('demo1.jpeg');
+}
+
+.box{
+    margin: 6rem 5rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url('Background1.jpeg');
+    border-radius: 2rem;
+}
+
+.team-info{
+    display: flex;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.team-id{
+    width: 100%;
+    text-align: right;
+}
+
+.clue-no{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+
+.text-box{
+    margin: 3rem 5rem;
+    padding: 1rem 2rem;
+    border: 2px solid rgb(0, 0, 0); 
+    font-size: 1.25rem;
+}
+
+
+.submission{
+    display: flex;
+    margin: 5rem 2rem;
+    margin-top: 5em;
+    padding: 0 3rem;
+}
+/*
+.text-form{
+    width: 100%;
+    text-align: left;
+
+}
+*/
+
+#fname{
+    padding: 0.5rem 23rem;
+    font-size: 1rem;
+    color: black;
+
+}
+.btn{
+    font-size: 1rem;
+    border: 2px solid rgb(54, 50, 50);
+    padding: 0 1rem;
+    border-radius: 2rem;
+    background-color: rgb(54, 50, 50);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    box-shadow: -1px 3px 13px 2px rgb(59, 59, 59);
+    border-radius: 35px;
+    transition: all ease;
+}
+
+
+
+
