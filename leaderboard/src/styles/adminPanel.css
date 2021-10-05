@@ -1,0 +1,15 @@
+.heading{
+    display: inline-flex;
+    text-align: center;
+}
+.container{
+
+    position: relative;
+}
+.card_style{
+    margin: 20px;
+}
+.card_style2{
+    background-color: #b3ffe6;
+    padding: auto;
+}
