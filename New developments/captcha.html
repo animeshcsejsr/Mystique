@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"  href="styles.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="opacity">
+            <form>    
+                <h1 class="Text-info">Login</h1>  
+                <label>     
+                    <input type="text" class="input" name="Username" placeholder="uuid" /> 
+                    <div class="line-box">          
+                        <div class="line"></div>        
+                    </div>    
+                </label>     
+
+                <div class="center">
+                    <div id="captchaBackground">
+                        <canvas id="captcha">captcha text</canvas>
+                        <input id="textBox" type="text" name="text" />
+                        <div id="buttons">
+                            <input id="submitButton" type="submit" />
+                            <button id="refreshButton" type="submit">Refresh</button>
+                        </div>
+                        <span id="output"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
