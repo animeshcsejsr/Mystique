@@ -83,4 +83,8 @@ html{
 
 
 
-
+.team-info2345{
+    display: flex;
+    padding: 2rem;
+    font-size: 2rem;
+}
