@@ -129,5 +129,11 @@ input::placeholder{
   }
   
  
- 
+ #submitButton5674 {
+ margin-top: 2em;
+ margin-bottom: 2em;
+ border: 0px;
+ font-weight: bold;
+ border-radius: 7px;
+}
  
